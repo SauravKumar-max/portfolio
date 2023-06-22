@@ -7,7 +7,7 @@ export function About() {
       <div className="text-base sm:text-lg text-center py-2 bg-[#918d8d5c] dark:bg-[#ffffff14] rounded-sm">
         Hello, I&apos;m a full stack developer based in India!
       </div>
-      <div className="flex justify-between mt-6">
+      <div className="flex justify-between mt-6 gap-2">
         <div>
           <h1 className="text-4xl sm:text-5xl font-bold">Saurav Kumar</h1>
           <h2 className="text-xs sm:text-base font-mono">
