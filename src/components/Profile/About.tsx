@@ -11,7 +11,7 @@ export function About() {
         <div>
           <h1 className="text-4xl sm:text-5xl font-bold">Saurav Kumar</h1>
           <h2 className="flex items-start gap-1 text-xs sm:text-base font-mono">
-            <span>Frontend Developer </span>
+            <span className="whitespace-nowrap">Frontend Developer </span>
             <span>/</span>
             <span>Full Stack Developer</span>
           </h2>
