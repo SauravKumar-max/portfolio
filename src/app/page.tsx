@@ -1,3 +1,12 @@
+"use client";
+
+import { About, Skills } from "@/components";
+
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <main className="my-6 mx-4">
+      <About />
+      <Skills />
+    </main>
+  );
 }
