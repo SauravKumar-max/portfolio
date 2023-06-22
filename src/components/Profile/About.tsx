@@ -10,8 +10,10 @@ export function About() {
       <div className="flex justify-between mt-6 gap-2">
         <div>
           <h1 className="text-4xl sm:text-5xl font-bold">Saurav Kumar</h1>
-          <h2 className="text-xs sm:text-base font-mono">
-            Frontend Developer / Full Stack Developer
+          <h2 className="flex items-start gap-1 text-xs sm:text-base font-mono">
+            <span>Frontend Developer </span>
+            <span>/</span>
+            <span>Full Stack Developer</span>
           </h2>
         </div>
         <div className="relative w-16 h-16 sm:w-[5.5rem] sm:h-[5.5rem]">
