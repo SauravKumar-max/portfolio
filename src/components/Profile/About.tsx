@@ -13,7 +13,7 @@ export function About() {
           <h2 className="flex items-start gap-1 text-xs sm:text-base font-mono">
             <span className="whitespace-nowrap">Frontend Developer </span>
             <span>/</span>
-            <span>Full Stack Developer</span>
+            <span>Full-Stack Developer</span>
           </h2>
         </div>
         <div className="relative w-16 h-16 sm:w-[5.5rem] sm:h-[5.5rem]">
