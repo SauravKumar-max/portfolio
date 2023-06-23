@@ -7,7 +7,7 @@ export default function Home() {
     <main className="my-6 mx-4">
       <RobotModel />
       <div className="relative">
-        <div className="absolute -top-32 z-20">
+        <div className="absolute -top-36 z-20">
           <About />
           <Skills />
         </div>

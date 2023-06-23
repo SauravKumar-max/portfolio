@@ -21,7 +21,7 @@ export function Navbar() {
   }, []);
 
   return (
-    <nav className="sticky top-0 left-0 z-40 w-full backdrop-blur-sm">
+    <nav className="fixed top-0 left-0 z-40 w-full backdrop-blur-sm">
       {openMenu && <MobileMenu setOpenMenu={setOpenMenu} />}
       <div className="max-w-3xl mx-auto flex items-center justify-between dark:text-white p-4">
         <div className="flex items-baseline gap-10">
