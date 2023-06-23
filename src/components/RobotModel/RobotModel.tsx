@@ -4,6 +4,8 @@ import React, { Suspense } from "react";
 import { Robot } from "./Robot";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { Loader } from "./Loader";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 export function RobotModel() {
   return (
@@ -12,7 +14,7 @@ export function RobotModel() {
         <OrbitControls enableZoom={true} />
         <ambientLight intensity={0.5} />
         <directionalLight position={[-2, 5, 5]} intensity={1} />
-        <Suspense fallback={null}>
+        <Suspense fallback={<Loader />}>
           <Robot />
         </Suspense>
       </Canvas>
