@@ -4,7 +4,7 @@ import React from "react";
 export function About() {
   return (
     <section className="dark:text-white">
-      <div className="text-base sm:text-lg text-center py-2 bg-[#918d8d5c] dark:bg-[#ffffff14] rounded-sm">
+      <div className="text-base sm:text-lg text-center py-2 bg-[#918d8d5c] dark:bg-[#ffffff14] rounded-sm bg-opacity-70">
         Hello, I&apos;m a full stack developer based in India!
       </div>
       <div className="flex justify-between mt-6 gap-2">
