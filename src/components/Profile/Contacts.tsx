@@ -20,6 +20,15 @@ export function Contacts() {
           <SiGmail className="text-cyan-600 dark:text-cyan-500 text-2xl" />
         </a>
       </div>
+      <div className="mt-4 mb-6 flex items-center justify-center">
+        <a
+          href="/Saurav_Kumar_Resume.pdf"
+          className="text-white font-bold bg-cyan-600 dark:bg-cyan-500 py-2 rounded-md px-12"
+          download
+        >
+          Resume
+        </a>
+      </div>
     </section>
   );
 }
