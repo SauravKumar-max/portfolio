@@ -1,5 +1,6 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import { HiDownload } from "react-icons/hi";
 
 export function About() {
   return (
@@ -43,6 +44,16 @@ export function About() {
             enhance people&apos;s lives and make a meaningful impact and Saurav
             aspire to be a part of that positive transformation.
           </p>
+        </div>
+        <div className="mt-4 flex items-center justify-center">
+          <a
+            href="/SAURAV_KUMAR_RESUME.pdf"
+            className="flex items-center gap-2 text-white font-bold bg-cyan-600 dark:bg-cyan-500 py-2 rounded-md px-6"
+            download
+          >
+            <HiDownload />
+            <span>Download Resume</span>
+          </a>
         </div>
       </div>
     </section>

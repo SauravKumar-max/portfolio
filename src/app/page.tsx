@@ -9,8 +9,8 @@ export default function Home() {
       <div className="relative">
         <div className="absolute -top-40 z-20">
           <About />
-          <Skills />
           <Education />
+          <Skills />
           <Contacts />
         </div>
       </div>
