@@ -37,7 +37,7 @@ export function Navbar() {
                   href={"/experience"}
                   className={
                     pathname === "/experience"
-                      ? "text-cyan-600 dark:text-cyan-500"
+                      ? "text-cyan-600 dark:text-cyan-500 underline"
                       : "hover:underline"
                   }
                 >
@@ -49,7 +49,7 @@ export function Navbar() {
                   href={"/projects"}
                   className={
                     pathname === "/projects"
-                      ? "text-cyan-600 dark:text-cyan-500"
+                      ? "text-cyan-600 dark:text-cyan-500 underline"
                       : "hover:underline"
                   }
                 >
@@ -61,7 +61,7 @@ export function Navbar() {
                   href={"/blogs"}
                   className={
                     pathname === "/blogs"
-                      ? "text-cyan-600 dark:text-cyan-500"
+                      ? "text-cyan-600 dark:text-cyan-500 underline"
                       : "hover:underline"
                   }
                 >
