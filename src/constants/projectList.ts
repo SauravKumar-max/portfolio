@@ -39,6 +39,7 @@ export const projectList: ProjectType[] = [
             "/assets/blendmart/wishlist.png",
             "/assets/blendmart/address.png",
             "/assets/blendmart/addaddress.png",
+            "/assets/blendmart/payment.png",
             "/assets/blendmart/login.png",
             "/assets/blendmart/signup.png"
         ]
