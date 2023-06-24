@@ -1,6 +1,6 @@
 "use client";
 
-import { RobotModel, About, Skills } from "@/components";
+import { RobotModel, About, Skills, Education, Contacts } from "@/components";
 
 export default function Home() {
   return (
@@ -10,6 +10,8 @@ export default function Home() {
         <div className="absolute -top-40 z-20">
           <About />
           <Skills />
+          <Education />
+          <Contacts />
         </div>
       </div>
     </main>
