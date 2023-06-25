@@ -12,7 +12,6 @@ export function Education() {
         <p className="text-sm text-gray-600 dark:text-gray-400">
           Jun 2018 to Aug 2022
         </p>
-        {/* <p>CGPA - 8.5</p> */}
       </div>
     </section>
   );

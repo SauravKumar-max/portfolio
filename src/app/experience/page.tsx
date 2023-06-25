@@ -80,7 +80,8 @@ export default function Experience() {
                   </li>
                   <li>
                     Single-handedly accomplished the development and
-                    implementation of core features/modules of the application.
+                    implementation of core features/modules (Task Management,
+                    User Management and Client Management) of the application.
                   </li>
                   <li>
                     Resolved frontend bugs and effectively communicated
