@@ -5,7 +5,6 @@ import { Robot } from "./Robot";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Loader } from "./Loader";
-import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 export function RobotModel() {
   return (
